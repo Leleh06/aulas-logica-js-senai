@@ -11,9 +11,9 @@
 
 // sequenciaNumerica(5,30)
 
-const frutas = ["laranja", "maça", "banana","mamão"]
+// const frutas = ["laranja", "maça", "banana","mamão"]
 
-frutas.push("abacate")
+// frutas.push("abacate")
 
 // console.log(frutas.length)
 
