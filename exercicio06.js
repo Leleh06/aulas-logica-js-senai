@@ -31,13 +31,10 @@ const listaDeObjeto = [
 
 
 
-const nomes = listaDeObjeto.map(objeto => objeto.nomeDoProduto)
-const precos = listaDeObjeto.map(objeto => objeto.precoDoProduto)
+const nomes = listaDeObjeto.map(objeto => {
+return `O valor do ${objeto.nomeDoProduto} é ${objeto.precoDoProduto}`
+})
+// const precos = listaDeObjeto.map(objeto => )
 
-for(nome of nomes){
-    console.log("Nome dos Produtos;", nome)
-}
+console.log("Nome dos Produtos;", nomes)
 
-for(preco of precos){
-    console.log("Preço do Produto:", preco)
-}
